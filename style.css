@@ -1,0 +1,100 @@
+
+:root{
+    --cor-de-fundo: #212121;
+    --branco-principal: #FFFFFF;
+    --fundo-degrade: #212121,#505050;
+    --cor-de-titulo: #ae0000;
+}
+
+header{
+    display: flex;
+}
+.cabecalho{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-size: 15px;
+    text-align: justify; 
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.cabecalho__logo{
+    width: 13%;
+    padding: 1em;
+}
+
+.cabecalho__texto{
+    font-size: 15px;
+}
+
+.tema{
+    background: linear-gradient(#212121,#505050);
+    display: inline-flex;    
+}
+
+.imagem__1{
+    margin: 1em;
+    margin-left: 37%;
+}
+
+.imagem__cartaz{
+    width: 70%;
+    margin: 5em;  
+}
+
+.texto{
+    display: inline-block;
+    text-align: center;
+    margin: 1em;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.tema__titulo{
+    color: var(--cor-de-titulo);
+    font-size: 40px;
+}
+
+.tema__titulo2{
+    color: var(--cor-de-titulo);
+    font-size: 35px;
+}
+
+.tema__resumo{
+    color: var(--branco-principal);
+    font-size: 23px;
+}
+
+.tema__apresentacao{
+    color: var(--branco-principal);
+    font-size: 23px;
+}
+
+.tema__franquia{
+    color: var(--branco-principal);
+    font-size: 23px;
+}
+
+.tema__jogabilidade{
+    color: var(--branco-principal);
+    font-size: 23px;
+}
+
+
+@media screen and (min-width: 820px) {
+    .tema__titulo{
+        color: #ff5500;
+    }
+
+    .tema__titulo2{
+        color: #ff5500;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .tema__titulo{
+        color: #ae0000;
+    }
+
+    .tema__titulo2{
+        color: #ae0000;
+    }
+}
